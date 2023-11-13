@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0E68C;
+    color: #4c4c4c;
+  }
+  
+  header {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+  }
+  
+
+  nav {
+    background-color: brown;
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  section {
+    margin-bottom: 40px;
+    
+  }
+
+  
+  section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    color: #800000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+  }
+  
+  section p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: #4A0404;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  section li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  footer {
+    background-color: #F5DEB3;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  footer img {
+    max-width: 200px;
+    margin-bottom: 20px;
+    
+    justify-self: start;
+  }
+  
+  footer div {
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1.2rem;
+    color:#4A0404;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+  }
+  
+  footer form {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  footer input[type="submit"] {
+    background-color: #8B0000;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  footer input[type="submit"]:hover {
+    background-color: #C04000;
+  }
